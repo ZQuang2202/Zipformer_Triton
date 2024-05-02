@@ -1,0 +1,306 @@
+model name is decoder 
+queue 14.39 s, infer 25.45 s, input 38.95 s, output 14.29 s 
+Batch_size 1 , 26248 times, infer 5388.86   ms, avg 0.21 ms, 0.21 ms input 8295.41   ms, avg 0.32 ms, output 3089.10   ms, avg 0.12 ms 
+Batch_size 2 , 16771 times, infer 3685.87   ms, avg 0.22 ms, 0.11 ms input 5637.61   ms, avg 0.34 ms, output 2201.90   ms, avg 0.13 ms 
+Batch_size 3 , 10521 times, infer 2402.45   ms, avg 0.23 ms, 0.08 ms input 3823.08   ms, avg 0.36 ms, output 1470.11   ms, avg 0.14 ms 
+Batch_size 4 , 8574  times, infer 1958.98   ms, avg 0.23 ms, 0.06 ms input 3165.12   ms, avg 0.37 ms, output 1191.31   ms, avg 0.14 ms 
+Batch_size 5 , 6176  times, infer 1518.41   ms, avg 0.25 ms, 0.05 ms input 2498.28   ms, avg 0.40 ms, output 925.87    ms, avg 0.15 ms 
+Batch_size 6 , 4811  times, infer 1202.79   ms, avg 0.25 ms, 0.04 ms input 1906.30   ms, avg 0.40 ms, output 706.74    ms, avg 0.15 ms 
+Batch_size 7 , 3714  times, infer 875.38    ms, avg 0.24 ms, 0.03 ms input 1517.04   ms, avg 0.41 ms, output 531.96    ms, avg 0.14 ms 
+Batch_size 8 , 2972  times, infer 734.68    ms, avg 0.25 ms, 0.03 ms input 1265.68   ms, avg 0.43 ms, output 420.07    ms, avg 0.14 ms 
+Batch_size 9 , 2413  times, infer 624.67    ms, avg 0.26 ms, 0.03 ms input 867.13    ms, avg 0.36 ms, output 325.73    ms, avg 0.13 ms 
+Batch_size 10, 2165  times, infer 548.04    ms, avg 0.25 ms, 0.03 ms input 898.95    ms, avg 0.42 ms, output 313.79    ms, avg 0.14 ms 
+Batch_size 11, 1850  times, infer 482.43    ms, avg 0.26 ms, 0.02 ms input 773.30    ms, avg 0.42 ms, output 255.69    ms, avg 0.14 ms 
+Batch_size 12, 1548  times, infer 394.56    ms, avg 0.25 ms, 0.02 ms input 566.42    ms, avg 0.37 ms, output 200.46    ms, avg 0.13 ms 
+Batch_size 13, 1418  times, infer 377.93    ms, avg 0.27 ms, 0.02 ms input 628.93    ms, avg 0.44 ms, output 219.02    ms, avg 0.15 ms 
+Batch_size 14, 1205  times, infer 312.43    ms, avg 0.26 ms, 0.02 ms input 508.31    ms, avg 0.42 ms, output 165.75    ms, avg 0.14 ms 
+Batch_size 15, 1081  times, infer 311.29    ms, avg 0.29 ms, 0.02 ms input 471.19    ms, avg 0.44 ms, output 184.28    ms, avg 0.17 ms 
+Batch_size 16, 960   times, infer 241.78    ms, avg 0.25 ms, 0.02 ms input 387.98    ms, avg 0.40 ms, output 126.07    ms, avg 0.13 ms 
+Batch_size 17, 898   times, infer 233.99    ms, avg 0.26 ms, 0.02 ms input 393.12    ms, avg 0.44 ms, output 111.86    ms, avg 0.12 ms 
+Batch_size 18, 794   times, infer 211.24    ms, avg 0.27 ms, 0.01 ms input 339.29    ms, avg 0.43 ms, output 109.20    ms, avg 0.14 ms 
+Batch_size 19, 756   times, infer 193.16    ms, avg 0.26 ms, 0.01 ms input 295.56    ms, avg 0.39 ms, output 102.77    ms, avg 0.14 ms 
+Batch_size 20, 647   times, infer 164.05    ms, avg 0.25 ms, 0.01 ms input 294.10    ms, avg 0.45 ms, output 87.86     ms, avg 0.14 ms 
+Batch_size 21, 601   times, infer 174.82    ms, avg 0.29 ms, 0.01 ms input 219.62    ms, avg 0.37 ms, output 86.40     ms, avg 0.14 ms 
+Batch_size 22, 585   times, infer 143.94    ms, avg 0.25 ms, 0.01 ms input 253.31    ms, avg 0.43 ms, output 76.07     ms, avg 0.13 ms 
+Batch_size 23, 557   times, infer 147.49    ms, avg 0.26 ms, 0.01 ms input 242.65    ms, avg 0.44 ms, output 65.50     ms, avg 0.12 ms 
+Batch_size 24, 522   times, infer 139.73    ms, avg 0.27 ms, 0.01 ms input 222.62    ms, avg 0.43 ms, output 63.03     ms, avg 0.12 ms 
+Batch_size 25, 483   times, infer 137.22    ms, avg 0.28 ms, 0.01 ms input 209.81    ms, avg 0.43 ms, output 72.63     ms, avg 0.15 ms 
+Batch_size 26, 456   times, infer 118.79    ms, avg 0.26 ms, 0.01 ms input 203.83    ms, avg 0.45 ms, output 64.62     ms, avg 0.14 ms 
+Batch_size 27, 505   times, infer 139.99    ms, avg 0.28 ms, 0.01 ms input 203.78    ms, avg 0.40 ms, output 69.63     ms, avg 0.14 ms 
+Batch_size 28, 460   times, infer 125.96    ms, avg 0.27 ms, 0.01 ms input 199.04    ms, avg 0.43 ms, output 76.84     ms, avg 0.17 ms 
+Batch_size 29, 428   times, infer 106.03    ms, avg 0.25 ms, 0.01 ms input 189.57    ms, avg 0.44 ms, output 65.65     ms, avg 0.15 ms 
+Batch_size 30, 430   times, infer 113.59    ms, avg 0.26 ms, 0.01 ms input 161.11    ms, avg 0.37 ms, output 62.84     ms, avg 0.15 ms 
+Batch_size 31, 442   times, infer 128.28    ms, avg 0.29 ms, 0.01 ms input 212.04    ms, avg 0.48 ms, output 63.47     ms, avg 0.14 ms 
+Batch_size 32, 418   times, infer 130.59    ms, avg 0.31 ms, 0.01 ms input 161.28    ms, avg 0.39 ms, output 83.37     ms, avg 0.20 ms 
+Batch_size 33, 346   times, infer 116.00    ms, avg 0.34 ms, 0.01 ms input 137.82    ms, avg 0.40 ms, output 56.00     ms, avg 0.16 ms 
+Batch_size 34, 364   times, infer 105.56    ms, avg 0.29 ms, 0.01 ms input 177.31    ms, avg 0.49 ms, output 60.20     ms, avg 0.17 ms 
+Batch_size 35, 349   times, infer 85.76     ms, avg 0.25 ms, 0.01 ms input 146.85    ms, avg 0.42 ms, output 50.40     ms, avg 0.14 ms 
+Batch_size 36, 363   times, infer 105.35    ms, avg 0.29 ms, 0.01 ms input 179.05    ms, avg 0.49 ms, output 66.38     ms, avg 0.18 ms 
+Batch_size 37, 292   times, infer 85.38     ms, avg 0.29 ms, 0.01 ms input 101.81    ms, avg 0.35 ms, output 48.81     ms, avg 0.17 ms 
+Batch_size 38, 288   times, infer 86.12     ms, avg 0.30 ms, 0.01 ms input 121.21    ms, avg 0.42 ms, output 38.11     ms, avg 0.13 ms 
+Batch_size 39, 294   times, infer 84.00     ms, avg 0.29 ms, 0.01 ms input 129.75    ms, avg 0.44 ms, output 37.93     ms, avg 0.13 ms 
+Batch_size 40, 274   times, infer 78.99     ms, avg 0.29 ms, 0.01 ms input 118.09    ms, avg 0.43 ms, output 37.67     ms, avg 0.14 ms 
+Batch_size 41, 237   times, infer 62.63     ms, avg 0.26 ms, 0.01 ms input 83.86     ms, avg 0.35 ms, output 32.06     ms, avg 0.14 ms 
+Batch_size 42, 197   times, infer 49.10     ms, avg 0.25 ms, 0.01 ms input 98.70     ms, avg 0.50 ms, output 27.82     ms, avg 0.14 ms 
+Batch_size 43, 192   times, infer 56.38     ms, avg 0.29 ms, 0.01 ms input 82.15     ms, avg 0.43 ms, output 32.36     ms, avg 0.17 ms 
+Batch_size 44, 162   times, infer 44.89     ms, avg 0.28 ms, 0.01 ms input 66.62     ms, avg 0.41 ms, output 21.50     ms, avg 0.13 ms 
+Batch_size 45, 155   times, infer 46.25     ms, avg 0.30 ms, 0.01 ms input 56.23     ms, avg 0.36 ms, output 28.12     ms, avg 0.18 ms 
+Batch_size 46, 142   times, infer 49.05     ms, avg 0.35 ms, 0.01 ms input 69.05     ms, avg 0.49 ms, output 19.27     ms, avg 0.14 ms 
+Batch_size 47, 106   times, infer 54.32     ms, avg 0.51 ms, 0.01 ms input 51.09     ms, avg 0.48 ms, output 12.48     ms, avg 0.12 ms 
+Batch_size 48, 104   times, infer 32.14     ms, avg 0.31 ms, 0.01 ms input 50.93     ms, avg 0.49 ms, output 15.42     ms, avg 0.15 ms 
+Batch_size 49, 74    times, infer 37.03     ms, avg 0.50 ms, 0.01 ms input 32.33     ms, avg 0.44 ms, output 12.18     ms, avg 0.16 ms 
+Batch_size 50, 54    times, infer 22.07     ms, avg 0.41 ms, 0.01 ms input 23.35     ms, avg 0.43 ms, output 7.92      ms, avg 0.15 ms 
+Batch_size 51, 39    times, infer 19.16     ms, avg 0.49 ms, 0.01 ms input 8.58      ms, avg 0.22 ms, output 4.86      ms, avg 0.12 ms 
+Batch_size 52, 25    times, infer 11.71     ms, avg 0.47 ms, 0.01 ms input 10.27     ms, avg 0.41 ms, output 3.35      ms, avg 0.13 ms 
+Batch_size 53, 15    times, infer 13.10     ms, avg 0.87 ms, 0.02 ms input 10.59     ms, avg 0.71 ms, output 2.16      ms, avg 0.14 ms 
+Batch_size 54, 7     times, infer 6.98      ms, avg 1.00 ms, 0.02 ms input 1.93      ms, avg 0.28 ms, output 0.49      ms, avg 0.07 ms 
+Batch_size 55, 12    times, infer 11.52     ms, avg 0.96 ms, 0.02 ms input 7.50      ms, avg 0.63 ms, output 0.94      ms, avg 0.08 ms 
+Batch_size 56, 6     times, infer 7.33      ms, avg 1.22 ms, 0.02 ms input 2.56      ms, avg 0.43 ms, output 0.42      ms, avg 0.07 ms 
+Batch_size 57, 7     times, infer 12.04     ms, avg 1.72 ms, 0.03 ms input 8.56      ms, avg 1.22 ms, output 0.57      ms, avg 0.08 ms 
+Batch_size 58, 2     times, infer 13.02     ms, avg 6.51 ms, 0.11 ms input 0.10      ms, avg 0.05 ms, output 0.06      ms, avg 0.03 ms 
+Batch_size 59, 5     times, infer 11.84     ms, avg 2.37 ms, 0.04 ms input 6.33      ms, avg 1.27 ms, output 0.33      ms, avg 0.07 ms 
+Batch_size 61, 2     times, infer 8.44      ms, avg 4.22 ms, 0.07 ms input 0.07      ms, avg 0.04 ms, output 0.25      ms, avg 0.13 ms 
+Batch_size 63, 4     times, infer 7.92      ms, avg 1.98 ms, 0.03 ms input 0.16      ms, avg 0.04 ms, output 0.31      ms, avg 0.08 ms 
+Batch_size 65, 2     times, infer 9.11      ms, avg 4.56 ms, 0.07 ms input 0.05      ms, avg 0.03 ms, output 0.17      ms, avg 0.09 ms 
+Batch_size 66, 1     times, infer 7.59      ms, avg 7.59 ms, 0.12 ms input 0.02      ms, avg 0.02 ms, output 0.14      ms, avg 0.14 ms 
+Batch_size 67, 2     times, infer 8.76      ms, avg 4.38 ms, 0.07 ms input 0.05      ms, avg 0.02 ms, output 0.16      ms, avg 0.08 ms 
+Batch_size 69, 1     times, infer 10.06     ms, avg 10.06 ms, 0.15 ms input 0.02      ms, avg 0.02 ms, output 0.04      ms, avg 0.04 ms 
+Batch_size 70, 2     times, infer 10.75     ms, avg 5.37 ms, 0.08 ms input 0.07      ms, avg 0.03 ms, output 0.18      ms, avg 0.09 ms 
+Batch_size 71, 1     times, infer 7.99      ms, avg 7.99 ms, 0.11 ms input 0.02      ms, avg 0.02 ms, output 0.25      ms, avg 0.25 ms 
+Batch_size 74, 1     times, infer 7.65      ms, avg 7.65 ms, 0.10 ms input 0.09      ms, avg 0.09 ms, output 0.03      ms, avg 0.03 ms 
+Batch_size 75, 2     times, infer 7.74      ms, avg 3.87 ms, 0.05 ms input 0.04      ms, avg 0.02 ms, output 0.20      ms, avg 0.10 ms 
+Batch_size 76, 1     times, infer 9.85      ms, avg 9.85 ms, 0.13 ms input 0.04      ms, avg 0.04 ms, output 0.09      ms, avg 0.09 ms 
+Batch_size 77, 2     times, infer 8.51      ms, avg 4.25 ms, 0.06 ms input 0.17      ms, avg 0.08 ms, output 0.10      ms, avg 0.05 ms 
+Batch_size 79, 1     times, infer 7.58      ms, avg 7.58 ms, 0.10 ms input 0.04      ms, avg 0.04 ms, output 0.03      ms, avg 0.03 ms 
+Batch_size 80, 1     times, infer 8.07      ms, avg 8.07 ms, 0.10 ms input 0.12      ms, avg 0.12 ms, output 0.06      ms, avg 0.06 ms 
+Batch_size 82, 2     times, infer 7.79      ms, avg 3.89 ms, 0.05 ms input 0.26      ms, avg 0.13 ms, output 0.20      ms, avg 0.10 ms 
+Batch_size 84, 1     times, infer 7.97      ms, avg 7.97 ms, 0.09 ms input 0.04      ms, avg 0.04 ms, output 0.14      ms, avg 0.14 ms 
+Batch_size 86, 2     times, infer 8.78      ms, avg 4.39 ms, 0.05 ms input 0.07      ms, avg 0.03 ms, output 0.21      ms, avg 0.11 ms 
+Batch_size 87, 1     times, infer 7.41      ms, avg 7.41 ms, 0.09 ms input 0.10      ms, avg 0.10 ms, output 0.03      ms, avg 0.03 ms 
+Batch_size 88, 1     times, infer 13.68     ms, avg 13.68 ms, 0.16 ms input 2.13      ms, avg 2.13 ms, output 0.08      ms, avg 0.08 ms 
+Batch_size 90, 1     times, infer 8.12      ms, avg 8.12 ms, 0.09 ms input 0.11      ms, avg 0.11 ms, output 0.04      ms, avg 0.04 ms 
+Batch_size 93, 1     times, infer 11.18     ms, avg 11.18 ms, 0.12 ms input 0.34      ms, avg 0.34 ms, output 0.03      ms, avg 0.03 ms 
+Batch_size 95, 1     times, infer 8.57      ms, avg 8.57 ms, 0.09 ms input 0.12      ms, avg 0.12 ms, output 0.14      ms, avg 0.14 ms 
+model name is encoder 
+queue 1972.61 s, infer 3761.95 s, input 45.19 s, output 38.08 s 
+Batch_size 1 , 7777  times, infer 208726.57 ms, avg 26.84 ms, 26.84 ms input 3901.27   ms, avg 0.50 ms, output 2065.83   ms, avg 0.27 ms 
+Batch_size 2 , 3167  times, infer 90755.28  ms, avg 28.66 ms, 14.33 ms input 1919.19   ms, avg 0.61 ms, output 1018.47   ms, avg 0.32 ms 
+Batch_size 3 , 1862  times, infer 54504.79  ms, avg 29.27 ms, 9.76 ms input 1163.75   ms, avg 0.62 ms, output 708.21    ms, avg 0.38 ms 
+Batch_size 4 , 1110  times, infer 33147.68  ms, avg 29.86 ms, 7.47 ms input 660.06    ms, avg 0.59 ms, output 436.91    ms, avg 0.39 ms 
+Batch_size 5 , 756   times, infer 23257.87  ms, avg 30.76 ms, 6.15 ms input 488.90    ms, avg 0.65 ms, output 341.59    ms, avg 0.45 ms 
+Batch_size 6 , 501   times, infer 15975.35  ms, avg 31.89 ms, 5.31 ms input 305.29    ms, avg 0.61 ms, output 263.20    ms, avg 0.53 ms 
+Batch_size 7 , 462   times, infer 14721.10  ms, avg 31.86 ms, 4.55 ms input 324.97    ms, avg 0.70 ms, output 261.70    ms, avg 0.57 ms 
+Batch_size 8 , 347   times, infer 11698.78  ms, avg 33.71 ms, 4.21 ms input 216.39    ms, avg 0.62 ms, output 208.03    ms, avg 0.60 ms 
+Batch_size 9 , 368   times, infer 12147.44  ms, avg 33.01 ms, 3.67 ms input 273.62    ms, avg 0.74 ms, output 217.61    ms, avg 0.59 ms 
+Batch_size 10, 279   times, infer 9797.85   ms, avg 35.12 ms, 3.51 ms input 207.37    ms, avg 0.74 ms, output 180.37    ms, avg 0.65 ms 
+Batch_size 11, 186   times, infer 7030.88   ms, avg 37.80 ms, 3.44 ms input 150.68    ms, avg 0.81 ms, output 125.51    ms, avg 0.67 ms 
+Batch_size 12, 153   times, infer 6244.82   ms, avg 40.82 ms, 3.40 ms input 120.34    ms, avg 0.79 ms, output 138.72    ms, avg 0.91 ms 
+Batch_size 13, 156   times, infer 6308.74   ms, avg 40.44 ms, 3.11 ms input 161.50    ms, avg 1.04 ms, output 127.99    ms, avg 0.82 ms 
+Batch_size 14, 145   times, infer 6023.12   ms, avg 41.54 ms, 2.97 ms input 123.68    ms, avg 0.85 ms, output 119.38    ms, avg 0.82 ms 
+Batch_size 15, 91    times, infer 4425.78   ms, avg 48.63 ms, 3.24 ms input 70.21     ms, avg 0.77 ms, output 64.11     ms, avg 0.70 ms 
+Batch_size 16, 89    times, infer 4280.89   ms, avg 48.10 ms, 3.01 ms input 82.28     ms, avg 0.92 ms, output 128.03    ms, avg 1.44 ms 
+Batch_size 17, 69    times, infer 3676.86   ms, avg 53.29 ms, 3.13 ms input 55.22     ms, avg 0.80 ms, output 68.79     ms, avg 1.00 ms 
+Batch_size 18, 43    times, infer 2766.74   ms, avg 64.34 ms, 3.57 ms input 38.15     ms, avg 0.89 ms, output 34.28     ms, avg 0.80 ms 
+Batch_size 19, 45    times, infer 3171.52   ms, avg 70.48 ms, 3.71 ms input 44.72     ms, avg 0.99 ms, output 74.62     ms, avg 1.66 ms 
+Batch_size 20, 35    times, infer 2739.62   ms, avg 78.27 ms, 3.91 ms input 32.90     ms, avg 0.94 ms, output 41.86     ms, avg 1.20 ms 
+Batch_size 21, 22    times, infer 2408.38   ms, avg 109.47 ms, 5.21 ms input 28.44     ms, avg 1.29 ms, output 16.57     ms, avg 0.75 ms 
+Batch_size 22, 22    times, infer 2226.58   ms, avg 101.21 ms, 4.60 ms input 16.02     ms, avg 0.73 ms, output 15.30     ms, avg 0.70 ms 
+Batch_size 23, 22    times, infer 2543.86   ms, avg 115.63 ms, 5.03 ms input 25.43     ms, avg 1.16 ms, output 26.78     ms, avg 1.22 ms 
+Batch_size 24, 16    times, infer 2290.58   ms, avg 143.16 ms, 5.97 ms input 14.59     ms, avg 0.91 ms, output 21.27     ms, avg 1.33 ms 
+Batch_size 25, 11    times, infer 1887.79   ms, avg 171.62 ms, 6.86 ms input 9.71      ms, avg 0.88 ms, output 13.96     ms, avg 1.27 ms 
+Batch_size 26, 6     times, infer 1994.01   ms, avg 332.33 ms, 12.78 ms input 10.88     ms, avg 1.81 ms, output 17.92     ms, avg 2.99 ms 
+Batch_size 27, 9     times, infer 2047.48   ms, avg 227.50 ms, 8.43 ms input 7.97      ms, avg 0.89 ms, output 7.17      ms, avg 0.80 ms 
+Batch_size 28, 5     times, infer 1967.79   ms, avg 393.56 ms, 14.06 ms input 5.32      ms, avg 1.06 ms, output 3.56      ms, avg 0.71 ms 
+Batch_size 29, 7     times, infer 1882.72   ms, avg 268.96 ms, 9.27 ms input 6.58      ms, avg 0.94 ms, output 14.75     ms, avg 2.11 ms 
+Batch_size 30, 6     times, infer 1934.14   ms, avg 322.36 ms, 10.75 ms input 8.15      ms, avg 1.36 ms, output 12.15     ms, avg 2.02 ms 
+Batch_size 31, 5     times, infer 1765.69   ms, avg 353.14 ms, 11.39 ms input 3.52      ms, avg 0.70 ms, output 3.48      ms, avg 0.70 ms 
+Batch_size 32, 3     times, infer 1991.00   ms, avg 663.67 ms, 20.74 ms input 4.96      ms, avg 1.65 ms, output 4.88      ms, avg 1.63 ms 
+Batch_size 33, 4     times, infer 2071.61   ms, avg 517.90 ms, 15.69 ms input 3.58      ms, avg 0.90 ms, output 4.25      ms, avg 1.06 ms 
+Batch_size 34, 1     times, infer 982.90    ms, avg 982.90 ms, 28.91 ms input 0.76      ms, avg 0.76 ms, output 0.75      ms, avg 0.75 ms 
+Batch_size 35, 3     times, infer 1929.66   ms, avg 643.22 ms, 18.38 ms input 2.98      ms, avg 0.99 ms, output 2.94      ms, avg 0.98 ms 
+Batch_size 36, 2     times, infer 903.57    ms, avg 451.78 ms, 12.55 ms input 2.11      ms, avg 1.05 ms, output 2.76      ms, avg 1.38 ms 
+Batch_size 37, 3     times, infer 1867.49   ms, avg 622.50 ms, 16.82 ms input 7.73      ms, avg 2.58 ms, output 2.44      ms, avg 0.81 ms 
+Batch_size 38, 3     times, infer 2074.33   ms, avg 691.44 ms, 18.20 ms input 5.34      ms, avg 1.78 ms, output 3.11      ms, avg 1.04 ms 
+Batch_size 39, 2     times, infer 1892.13   ms, avg 946.06 ms, 24.26 ms input 2.29      ms, avg 1.15 ms, output 2.71      ms, avg 1.36 ms 
+Batch_size 40, 4     times, infer 1895.92   ms, avg 473.98 ms, 11.85 ms input 6.53      ms, avg 1.63 ms, output 6.90      ms, avg 1.73 ms 
+Batch_size 41, 2     times, infer 1894.21   ms, avg 947.11 ms, 23.10 ms input 2.53      ms, avg 1.26 ms, output 2.74      ms, avg 1.37 ms 
+Batch_size 42, 3     times, infer 1917.13   ms, avg 639.04 ms, 15.22 ms input 4.18      ms, avg 1.39 ms, output 5.79      ms, avg 1.93 ms 
+Batch_size 43, 3     times, infer 2000.21   ms, avg 666.74 ms, 15.51 ms input 3.80      ms, avg 1.27 ms, output 6.28      ms, avg 2.09 ms 
+Batch_size 45, 2     times, infer 1998.16   ms, avg 999.08 ms, 22.20 ms input 2.99      ms, avg 1.50 ms, output 2.46      ms, avg 1.23 ms 
+Batch_size 46, 3     times, infer 2041.56   ms, avg 680.52 ms, 14.79 ms input 5.36      ms, avg 1.79 ms, output 5.08      ms, avg 1.69 ms 
+Batch_size 47, 1     times, infer 956.10    ms, avg 956.10 ms, 20.34 ms input 0.87      ms, avg 0.87 ms, output 0.84      ms, avg 0.84 ms 
+Batch_size 48, 2     times, infer 2080.20   ms, avg 1040.10 ms, 21.67 ms input 6.65      ms, avg 3.32 ms, output 2.75      ms, avg 1.38 ms 
+Batch_size 49, 1     times, infer 1080.26   ms, avg 1080.26 ms, 22.05 ms input 4.96      ms, avg 4.96 ms, output 0.97      ms, avg 0.97 ms 
+model name is feature_extractor 
+queue 134.56 s, infer 516.54 s, input 6.27  s, output 9.31  s 
+Batch_size 1 , 10187 times, infer 15117.85  ms, avg 1.48 ms, 1.48 ms input 207.21    ms, avg 0.02 ms, output 562.45    ms, avg 0.06 ms 
+Batch_size 2 , 4443  times, infer 9522.33   ms, avg 2.14 ms, 1.07 ms input 133.04    ms, avg 0.03 ms, output 279.62    ms, avg 0.06 ms 
+Batch_size 3 , 2027  times, infer 6179.90   ms, avg 3.05 ms, 1.02 ms input 80.08     ms, avg 0.04 ms, output 149.39    ms, avg 0.07 ms 
+Batch_size 4 , 948   times, infer 3563.44   ms, avg 3.76 ms, 0.94 ms input 45.64     ms, avg 0.05 ms, output 78.76     ms, avg 0.08 ms 
+Batch_size 5 , 536   times, infer 2435.36   ms, avg 4.54 ms, 0.91 ms input 29.42     ms, avg 0.05 ms, output 45.37     ms, avg 0.08 ms 
+Batch_size 6 , 345   times, infer 1895.02   ms, avg 5.49 ms, 0.92 ms input 21.65     ms, avg 0.06 ms, output 32.75     ms, avg 0.09 ms 
+Batch_size 7 , 248   times, infer 1544.45   ms, avg 6.23 ms, 0.89 ms input 18.69     ms, avg 0.08 ms, output 27.76     ms, avg 0.11 ms 
+Batch_size 8 , 239   times, infer 1708.98   ms, avg 7.15 ms, 0.89 ms input 22.62     ms, avg 0.09 ms, output 28.46     ms, avg 0.12 ms 
+Batch_size 9 , 199   times, infer 1553.12   ms, avg 7.80 ms, 0.87 ms input 20.58     ms, avg 0.10 ms, output 26.19     ms, avg 0.13 ms 
+Batch_size 10, 171   times, infer 1551.23   ms, avg 9.07 ms, 0.91 ms input 19.41     ms, avg 0.11 ms, output 26.61     ms, avg 0.16 ms 
+Batch_size 11, 177   times, infer 1819.80   ms, avg 10.28 ms, 0.93 ms input 22.15     ms, avg 0.13 ms, output 29.15     ms, avg 0.16 ms 
+Batch_size 12, 118   times, infer 1206.94   ms, avg 10.23 ms, 0.85 ms input 15.74     ms, avg 0.13 ms, output 20.92     ms, avg 0.18 ms 
+Batch_size 13, 125   times, infer 1509.60   ms, avg 12.08 ms, 0.93 ms input 17.44     ms, avg 0.14 ms, output 23.86     ms, avg 0.19 ms 
+Batch_size 14, 96    times, infer 1215.69   ms, avg 12.66 ms, 0.90 ms input 14.45     ms, avg 0.15 ms, output 19.10     ms, avg 0.20 ms 
+Batch_size 15, 90    times, infer 1198.94   ms, avg 13.32 ms, 0.89 ms input 14.68     ms, avg 0.16 ms, output 19.08     ms, avg 0.21 ms 
+Batch_size 16, 88    times, infer 1252.26   ms, avg 14.23 ms, 0.89 ms input 15.72     ms, avg 0.18 ms, output 19.96     ms, avg 0.23 ms 
+Batch_size 17, 84    times, infer 1363.48   ms, avg 16.23 ms, 0.95 ms input 15.63     ms, avg 0.19 ms, output 20.86     ms, avg 0.25 ms 
+Batch_size 18, 75    times, infer 1214.47   ms, avg 16.19 ms, 0.90 ms input 14.32     ms, avg 0.19 ms, output 18.21     ms, avg 0.24 ms 
+Batch_size 19, 71    times, infer 1238.66   ms, avg 17.45 ms, 0.92 ms input 13.99     ms, avg 0.20 ms, output 18.58     ms, avg 0.26 ms 
+Batch_size 20, 53    times, infer 938.78    ms, avg 17.71 ms, 0.89 ms input 11.59     ms, avg 0.22 ms, output 14.71     ms, avg 0.28 ms 
+Batch_size 21, 46    times, infer 913.64    ms, avg 19.86 ms, 0.95 ms input 10.17     ms, avg 0.22 ms, output 13.12     ms, avg 0.29 ms 
+Batch_size 22, 34    times, infer 679.16    ms, avg 19.98 ms, 0.91 ms input 7.87      ms, avg 0.23 ms, output 10.50     ms, avg 0.31 ms 
+Batch_size 23, 33    times, infer 646.61    ms, avg 19.59 ms, 0.85 ms input 8.00      ms, avg 0.24 ms, output 10.46     ms, avg 0.32 ms 
+Batch_size 24, 33    times, infer 801.05    ms, avg 24.27 ms, 1.01 ms input 8.41      ms, avg 0.25 ms, output 10.74     ms, avg 0.33 ms 
+Batch_size 25, 22    times, infer 510.84    ms, avg 23.22 ms, 0.93 ms input 5.69      ms, avg 0.26 ms, output 7.17      ms, avg 0.33 ms 
+Batch_size 26, 17    times, infer 418.08    ms, avg 24.59 ms, 0.95 ms input 4.48      ms, avg 0.26 ms, output 6.21      ms, avg 0.37 ms 
+Batch_size 27, 15    times, infer 320.55    ms, avg 21.37 ms, 0.79 ms input 4.35      ms, avg 0.29 ms, output 4.96      ms, avg 0.33 ms 
+Batch_size 28, 8     times, infer 208.65    ms, avg 26.08 ms, 0.93 ms input 2.62      ms, avg 0.33 ms, output 2.87      ms, avg 0.36 ms 
+Batch_size 29, 12    times, infer 338.00    ms, avg 28.17 ms, 0.97 ms input 3.23      ms, avg 0.27 ms, output 4.95      ms, avg 0.41 ms 
+Batch_size 30, 8     times, infer 206.53    ms, avg 25.82 ms, 0.86 ms input 2.27      ms, avg 0.28 ms, output 3.13      ms, avg 0.39 ms 
+Batch_size 31, 2     times, infer 66.30     ms, avg 33.15 ms, 1.07 ms input 0.57      ms, avg 0.29 ms, output 0.70      ms, avg 0.35 ms 
+Batch_size 32, 7     times, infer 182.09    ms, avg 26.01 ms, 0.81 ms input 2.32      ms, avg 0.33 ms, output 3.05      ms, avg 0.44 ms 
+Batch_size 33, 4     times, infer 124.32    ms, avg 31.08 ms, 0.94 ms input 1.38      ms, avg 0.34 ms, output 1.49      ms, avg 0.37 ms 
+Batch_size 34, 1     times, infer 30.18     ms, avg 30.18 ms, 0.89 ms input 0.33      ms, avg 0.33 ms, output 0.41      ms, avg 0.41 ms 
+Batch_size 35, 5     times, infer 155.69    ms, avg 31.14 ms, 0.89 ms input 1.92      ms, avg 0.38 ms, output 2.48      ms, avg 0.50 ms 
+Batch_size 36, 3     times, infer 111.18    ms, avg 37.06 ms, 1.03 ms input 1.01      ms, avg 0.34 ms, output 1.41      ms, avg 0.47 ms 
+Batch_size 37, 2     times, infer 66.71     ms, avg 33.36 ms, 0.90 ms input 0.78      ms, avg 0.39 ms, output 0.95      ms, avg 0.47 ms 
+Batch_size 38, 2     times, infer 65.03     ms, avg 32.52 ms, 0.86 ms input 0.71      ms, avg 0.35 ms, output 1.24      ms, avg 0.62 ms 
+Batch_size 39, 1     times, infer 30.43     ms, avg 30.43 ms, 0.78 ms input 0.36      ms, avg 0.36 ms, output 0.52      ms, avg 0.52 ms 
+Batch_size 40, 2     times, infer 68.35     ms, avg 34.18 ms, 0.85 ms input 0.78      ms, avg 0.39 ms, output 0.91      ms, avg 0.45 ms 
+Batch_size 43, 1     times, infer 37.77     ms, avg 37.77 ms, 0.88 ms input 0.41      ms, avg 0.41 ms, output 0.53      ms, avg 0.53 ms 
+Batch_size 44, 1     times, infer 37.32     ms, avg 37.32 ms, 0.85 ms input 0.51      ms, avg 0.51 ms, output 0.45      ms, avg 0.45 ms 
+Batch_size 45, 2     times, infer 105.91    ms, avg 52.96 ms, 1.18 ms input 1.11      ms, avg 0.56 ms, output 0.99      ms, avg 0.50 ms 
+Batch_size 46, 1     times, infer 56.29     ms, avg 56.29 ms, 1.22 ms input 0.47      ms, avg 0.47 ms, output 0.51      ms, avg 0.51 ms 
+Batch_size 49, 1     times, infer 37.01     ms, avg 37.01 ms, 0.76 ms input 0.58      ms, avg 0.58 ms, output 0.52      ms, avg 0.52 ms 
+Batch_size 54, 2     times, infer 91.21     ms, avg 45.60 ms, 0.84 ms input 1.12      ms, avg 0.56 ms, output 1.28      ms, avg 0.64 ms 
+Batch_size 56, 1     times, infer 40.08     ms, avg 40.08 ms, 0.72 ms input 0.75      ms, avg 0.75 ms, output 0.70      ms, avg 0.70 ms 
+Batch_size 77, 1     times, infer 29.40     ms, avg 29.40 ms, 0.38 ms input 0.96      ms, avg 0.96 ms, output 6.39      ms, avg 6.39 ms 
+model name is joiner 
+queue 15.71 s, infer 14.93 s, input 97.96 s, output 12.34 s 
+Batch_size 1 , 26119 times, infer 3198.49   ms, avg 0.12 ms, 0.12 ms input 20707.10  ms, avg 0.79 ms, output 2634.92   ms, avg 0.10 ms 
+Batch_size 2 , 16692 times, infer 2327.10   ms, avg 0.14 ms, 0.07 ms input 14037.49  ms, avg 0.84 ms, output 1912.92   ms, avg 0.11 ms 
+Batch_size 3 , 10470 times, infer 1483.17   ms, avg 0.14 ms, 0.05 ms input 9642.79   ms, avg 0.92 ms, output 1258.87   ms, avg 0.12 ms 
+Batch_size 4 , 8540  times, infer 1252.45   ms, avg 0.15 ms, 0.04 ms input 8451.68   ms, avg 0.99 ms, output 1047.02   ms, avg 0.12 ms 
+Batch_size 5 , 6129  times, infer 885.20    ms, avg 0.14 ms, 0.03 ms input 6358.44   ms, avg 1.04 ms, output 751.06    ms, avg 0.12 ms 
+Batch_size 6 , 4805  times, infer 699.91    ms, avg 0.15 ms, 0.02 ms input 4806.63   ms, avg 1.00 ms, output 606.39    ms, avg 0.13 ms 
+Batch_size 7 , 3692  times, infer 547.52    ms, avg 0.15 ms, 0.02 ms input 3574.08   ms, avg 0.97 ms, output 474.43    ms, avg 0.13 ms 
+Batch_size 8 , 2977  times, infer 440.64    ms, avg 0.15 ms, 0.02 ms input 3026.67   ms, avg 1.02 ms, output 377.08    ms, avg 0.13 ms 
+Batch_size 9 , 2408  times, infer 378.76    ms, avg 0.16 ms, 0.02 ms input 2667.01   ms, avg 1.11 ms, output 307.43    ms, avg 0.13 ms 
+Batch_size 10, 2162  times, infer 342.68    ms, avg 0.16 ms, 0.02 ms input 2298.38   ms, avg 1.06 ms, output 261.53    ms, avg 0.12 ms 
+Batch_size 11, 1839  times, infer 284.50    ms, avg 0.15 ms, 0.01 ms input 1900.30   ms, avg 1.03 ms, output 232.17    ms, avg 0.13 ms 
+Batch_size 12, 1566  times, infer 248.09    ms, avg 0.16 ms, 0.01 ms input 1676.01   ms, avg 1.07 ms, output 189.47    ms, avg 0.12 ms 
+Batch_size 13, 1408  times, infer 212.93    ms, avg 0.15 ms, 0.01 ms input 1561.66   ms, avg 1.11 ms, output 162.28    ms, avg 0.12 ms 
+Batch_size 14, 1212  times, infer 189.33    ms, avg 0.16 ms, 0.01 ms input 1225.20   ms, avg 1.01 ms, output 147.68    ms, avg 0.12 ms 
+Batch_size 15, 1082  times, infer 168.84    ms, avg 0.16 ms, 0.01 ms input 1122.41   ms, avg 1.04 ms, output 123.69    ms, avg 0.11 ms 
+Batch_size 16, 952   times, infer 135.89    ms, avg 0.14 ms, 0.01 ms input 1029.25   ms, avg 1.08 ms, output 114.09    ms, avg 0.12 ms 
+Batch_size 17, 894   times, infer 145.10    ms, avg 0.16 ms, 0.01 ms input 910.76    ms, avg 1.02 ms, output 107.87    ms, avg 0.12 ms 
+Batch_size 18, 786   times, infer 124.39    ms, avg 0.16 ms, 0.01 ms input 912.80    ms, avg 1.16 ms, output 99.51     ms, avg 0.13 ms 
+Batch_size 19, 756   times, infer 114.77    ms, avg 0.15 ms, 0.01 ms input 810.44    ms, avg 1.07 ms, output 92.61     ms, avg 0.12 ms 
+Batch_size 20, 641   times, infer 97.75     ms, avg 0.15 ms, 0.01 ms input 627.63    ms, avg 0.98 ms, output 74.52     ms, avg 0.12 ms 
+Batch_size 21, 593   times, infer 92.14     ms, avg 0.16 ms, 0.01 ms input 583.23    ms, avg 0.98 ms, output 77.76     ms, avg 0.13 ms 
+Batch_size 22, 580   times, infer 85.79     ms, avg 0.15 ms, 0.01 ms input 596.53    ms, avg 1.03 ms, output 64.93     ms, avg 0.11 ms 
+Batch_size 23, 546   times, infer 84.48     ms, avg 0.15 ms, 0.01 ms input 567.65    ms, avg 1.04 ms, output 65.26     ms, avg 0.12 ms 
+Batch_size 24, 517   times, infer 80.81     ms, avg 0.16 ms, 0.01 ms input 589.07    ms, avg 1.14 ms, output 66.90     ms, avg 0.13 ms 
+Batch_size 25, 486   times, infer 75.76     ms, avg 0.16 ms, 0.01 ms input 506.81    ms, avg 1.04 ms, output 55.69     ms, avg 0.11 ms 
+Batch_size 26, 454   times, infer 71.25     ms, avg 0.16 ms, 0.01 ms input 510.92    ms, avg 1.13 ms, output 52.52     ms, avg 0.12 ms 
+Batch_size 27, 503   times, infer 76.89     ms, avg 0.15 ms, 0.01 ms input 571.30    ms, avg 1.14 ms, output 68.47     ms, avg 0.14 ms 
+Batch_size 28, 461   times, infer 73.73     ms, avg 0.16 ms, 0.01 ms input 580.47    ms, avg 1.26 ms, output 56.33     ms, avg 0.12 ms 
+Batch_size 29, 433   times, infer 67.22     ms, avg 0.16 ms, 0.01 ms input 457.84    ms, avg 1.06 ms, output 53.89     ms, avg 0.12 ms 
+Batch_size 30, 422   times, infer 68.24     ms, avg 0.16 ms, 0.01 ms input 453.32    ms, avg 1.07 ms, output 54.75     ms, avg 0.13 ms 
+Batch_size 31, 438   times, infer 68.99     ms, avg 0.16 ms, 0.01 ms input 458.04    ms, avg 1.05 ms, output 62.01     ms, avg 0.14 ms 
+Batch_size 32, 414   times, infer 65.58     ms, avg 0.16 ms, 0.00 ms input 517.16    ms, avg 1.25 ms, output 53.91     ms, avg 0.13 ms 
+Batch_size 33, 341   times, infer 54.87     ms, avg 0.16 ms, 0.00 ms input 316.63    ms, avg 0.93 ms, output 46.22     ms, avg 0.14 ms 
+Batch_size 34, 369   times, infer 55.99     ms, avg 0.15 ms, 0.00 ms input 383.37    ms, avg 1.04 ms, output 48.61     ms, avg 0.13 ms 
+Batch_size 35, 342   times, infer 49.23     ms, avg 0.14 ms, 0.00 ms input 308.49    ms, avg 0.90 ms, output 43.28     ms, avg 0.13 ms 
+Batch_size 36, 361   times, infer 54.40     ms, avg 0.15 ms, 0.00 ms input 410.83    ms, avg 1.14 ms, output 45.87     ms, avg 0.13 ms 
+Batch_size 37, 295   times, infer 44.63     ms, avg 0.15 ms, 0.00 ms input 268.93    ms, avg 0.91 ms, output 35.84     ms, avg 0.12 ms 
+Batch_size 38, 290   times, infer 39.56     ms, avg 0.14 ms, 0.00 ms input 254.66    ms, avg 0.88 ms, output 37.62     ms, avg 0.13 ms 
+Batch_size 39, 293   times, infer 46.64     ms, avg 0.16 ms, 0.00 ms input 275.42    ms, avg 0.94 ms, output 43.15     ms, avg 0.15 ms 
+Batch_size 40, 274   times, infer 42.49     ms, avg 0.16 ms, 0.00 ms input 226.56    ms, avg 0.83 ms, output 36.22     ms, avg 0.13 ms 
+Batch_size 41, 231   times, infer 38.54     ms, avg 0.17 ms, 0.00 ms input 171.14    ms, avg 0.74 ms, output 31.22     ms, avg 0.14 ms 
+Batch_size 42, 199   times, infer 27.24     ms, avg 0.14 ms, 0.00 ms input 178.55    ms, avg 0.90 ms, output 21.07     ms, avg 0.11 ms 
+Batch_size 43, 193   times, infer 33.74     ms, avg 0.17 ms, 0.00 ms input 178.10    ms, avg 0.92 ms, output 27.61     ms, avg 0.14 ms 
+Batch_size 44, 161   times, infer 22.75     ms, avg 0.14 ms, 0.00 ms input 169.01    ms, avg 1.05 ms, output 17.69     ms, avg 0.11 ms 
+Batch_size 45, 152   times, infer 24.71     ms, avg 0.16 ms, 0.00 ms input 167.05    ms, avg 1.10 ms, output 16.96     ms, avg 0.11 ms 
+Batch_size 46, 142   times, infer 23.31     ms, avg 0.16 ms, 0.00 ms input 76.58     ms, avg 0.54 ms, output 21.08     ms, avg 0.15 ms 
+Batch_size 47, 105   times, infer 15.26     ms, avg 0.15 ms, 0.00 ms input 103.95    ms, avg 0.99 ms, output 11.58     ms, avg 0.11 ms 
+Batch_size 48, 106   times, infer 17.62     ms, avg 0.17 ms, 0.00 ms input 61.21     ms, avg 0.58 ms, output 13.55     ms, avg 0.13 ms 
+Batch_size 49, 74    times, infer 12.13     ms, avg 0.16 ms, 0.00 ms input 77.12     ms, avg 1.04 ms, output 11.49     ms, avg 0.16 ms 
+Batch_size 50, 57    times, infer 10.19     ms, avg 0.18 ms, 0.00 ms input 46.68     ms, avg 0.82 ms, output 7.92      ms, avg 0.14 ms 
+Batch_size 51, 41    times, infer 6.95      ms, avg 0.17 ms, 0.00 ms input 22.68     ms, avg 0.55 ms, output 4.65      ms, avg 0.11 ms 
+Batch_size 52, 29    times, infer 3.37      ms, avg 0.12 ms, 0.00 ms input 22.58     ms, avg 0.78 ms, output 2.96      ms, avg 0.10 ms 
+Batch_size 53, 18    times, infer 1.92      ms, avg 0.11 ms, 0.00 ms input 18.99     ms, avg 1.05 ms, output 2.24      ms, avg 0.12 ms 
+Batch_size 54, 8     times, infer 1.05      ms, avg 0.13 ms, 0.00 ms input 1.38      ms, avg 0.17 ms, output 0.53      ms, avg 0.07 ms 
+Batch_size 55, 16    times, infer 1.90      ms, avg 0.12 ms, 0.00 ms input 20.89     ms, avg 1.31 ms, output 1.30      ms, avg 0.08 ms 
+Batch_size 56, 8     times, infer 0.78      ms, avg 0.10 ms, 0.00 ms input 5.74      ms, avg 0.72 ms, output 0.80      ms, avg 0.10 ms 
+Batch_size 57, 8     times, infer 1.01      ms, avg 0.13 ms, 0.00 ms input 4.72      ms, avg 0.59 ms, output 0.68      ms, avg 0.08 ms 
+Batch_size 58, 6     times, infer 0.52      ms, avg 0.09 ms, 0.00 ms input 2.72      ms, avg 0.45 ms, output 0.46      ms, avg 0.08 ms 
+Batch_size 59, 5     times, infer 2.52      ms, avg 0.50 ms, 0.01 ms input 2.91      ms, avg 0.58 ms, output 0.35      ms, avg 0.07 ms 
+Batch_size 60, 1     times, infer 0.25      ms, avg 0.25 ms, 0.00 ms input 3.72      ms, avg 3.72 ms, output 0.04      ms, avg 0.04 ms 
+Batch_size 61, 5     times, infer 0.34      ms, avg 0.07 ms, 0.00 ms input 2.04      ms, avg 0.41 ms, output 0.25      ms, avg 0.05 ms 
+Batch_size 62, 5     times, infer 0.34      ms, avg 0.07 ms, 0.00 ms input 3.99      ms, avg 0.80 ms, output 0.18      ms, avg 0.04 ms 
+Batch_size 63, 1     times, infer 0.25      ms, avg 0.25 ms, 0.00 ms input 0.47      ms, avg 0.47 ms, output 0.14      ms, avg 0.14 ms 
+Batch_size 64, 3     times, infer 0.18      ms, avg 0.06 ms, 0.00 ms input 0.25      ms, avg 0.08 ms, output 0.17      ms, avg 0.06 ms 
+Batch_size 65, 3     times, infer 0.29      ms, avg 0.10 ms, 0.00 ms input 0.22      ms, avg 0.07 ms, output 0.21      ms, avg 0.07 ms 
+Batch_size 66, 2     times, infer 0.11      ms, avg 0.06 ms, 0.00 ms input 0.14      ms, avg 0.07 ms, output 0.12      ms, avg 0.06 ms 
+Batch_size 67, 4     times, infer 0.58      ms, avg 0.15 ms, 0.00 ms input 0.31      ms, avg 0.08 ms, output 0.26      ms, avg 0.07 ms 
+Batch_size 68, 3     times, infer 0.27      ms, avg 0.09 ms, 0.00 ms input 2.23      ms, avg 0.74 ms, output 0.11      ms, avg 0.04 ms 
+Batch_size 69, 2     times, infer 0.15      ms, avg 0.08 ms, 0.00 ms input 0.20      ms, avg 0.10 ms, output 0.09      ms, avg 0.04 ms 
+Batch_size 70, 1     times, infer 0.12      ms, avg 0.12 ms, 0.00 ms input 0.48      ms, avg 0.48 ms, output 0.04      ms, avg 0.04 ms 
+Batch_size 72, 1     times, infer 0.12      ms, avg 0.12 ms, 0.00 ms input 5.48      ms, avg 5.48 ms, output 0.16      ms, avg 0.16 ms 
+Batch_size 74, 4     times, infer 0.21      ms, avg 0.05 ms, 0.00 ms input 0.32      ms, avg 0.08 ms, output 0.13      ms, avg 0.03 ms 
+Batch_size 75, 5     times, infer 0.33      ms, avg 0.07 ms, 0.00 ms input 0.42      ms, avg 0.08 ms, output 0.33      ms, avg 0.07 ms 
+Batch_size 76, 2     times, infer 0.10      ms, avg 0.05 ms, 0.00 ms input 0.18      ms, avg 0.09 ms, output 0.07      ms, avg 0.03 ms 
+Batch_size 77, 2     times, infer 0.13      ms, avg 0.06 ms, 0.00 ms input 0.19      ms, avg 0.10 ms, output 0.13      ms, avg 0.06 ms 
+Batch_size 78, 1     times, infer 0.11      ms, avg 0.11 ms, 0.00 ms input 0.07      ms, avg 0.07 ms, output 0.17      ms, avg 0.17 ms 
+Batch_size 79, 2     times, infer 0.15      ms, avg 0.08 ms, 0.00 ms input 0.16      ms, avg 0.08 ms, output 0.17      ms, avg 0.08 ms 
+Batch_size 82, 1     times, infer 0.10      ms, avg 0.10 ms, 0.00 ms input 0.08      ms, avg 0.08 ms, output 0.04      ms, avg 0.04 ms 
+Batch_size 84, 1     times, infer 0.07      ms, avg 0.07 ms, 0.00 ms input 0.08      ms, avg 0.08 ms, output 0.03      ms, avg 0.03 ms 
+Batch_size 86, 2     times, infer 0.11      ms, avg 0.05 ms, 0.00 ms input 0.14      ms, avg 0.07 ms, output 0.16      ms, avg 0.08 ms 
+Batch_size 87, 1     times, infer 0.06      ms, avg 0.06 ms, 0.00 ms input 0.07      ms, avg 0.07 ms, output 0.03      ms, avg 0.03 ms 
+Batch_size 88, 1     times, infer 0.07      ms, avg 0.07 ms, 0.00 ms input 0.07      ms, avg 0.07 ms, output 0.14      ms, avg 0.14 ms 
+Batch_size 90, 2     times, infer 0.15      ms, avg 0.07 ms, 0.00 ms input 0.36      ms, avg 0.18 ms, output 0.06      ms, avg 0.03 ms 
+Batch_size 93, 1     times, infer 0.29      ms, avg 0.29 ms, 0.00 ms input 0.09      ms, avg 0.09 ms, output 0.23      ms, avg 0.23 ms 
+model name is scorer 
+queue 3795.90 s, infer 7463.71 s, input 49.16 s, output 24.60 s 
+Batch_size 1 , 4913  times, infer 421540.90 ms, avg 85.80 ms, 85.80 ms input 1257.37   ms, avg 0.26 ms, output 539.94    ms, avg 0.11 ms 
+Batch_size 2 , 2314  times, infer 237093.79 ms, avg 102.46 ms, 51.23 ms input 1038.58   ms, avg 0.45 ms, output 340.69    ms, avg 0.15 ms 
+Batch_size 3 , 1333  times, infer 141237.04 ms, avg 105.95 ms, 35.32 ms input 613.01    ms, avg 0.46 ms, output 237.28    ms, avg 0.18 ms 
+Batch_size 4 , 930   times, infer 103865.72 ms, avg 111.68 ms, 27.92 ms input 498.63    ms, avg 0.54 ms, output 191.93    ms, avg 0.21 ms 
+Batch_size 5 , 625   times, infer 72079.94  ms, avg 115.33 ms, 23.07 ms input 348.86    ms, avg 0.56 ms, output 145.71    ms, avg 0.23 ms 
+Batch_size 6 , 457   times, infer 52614.31  ms, avg 115.13 ms, 19.19 ms input 307.49    ms, avg 0.67 ms, output 114.84    ms, avg 0.25 ms 
+Batch_size 7 , 349   times, infer 41712.40  ms, avg 119.52 ms, 17.07 ms input 214.36    ms, avg 0.61 ms, output 99.00     ms, avg 0.28 ms 
+Batch_size 8 , 293   times, infer 37513.47  ms, avg 128.03 ms, 16.00 ms input 202.11    ms, avg 0.69 ms, output 91.43     ms, avg 0.31 ms 
+Batch_size 9 , 237   times, infer 30458.39  ms, avg 128.52 ms, 14.28 ms input 189.33    ms, avg 0.80 ms, output 77.12     ms, avg 0.33 ms 
+Batch_size 10, 224   times, infer 28883.90  ms, avg 128.95 ms, 12.89 ms input 171.29    ms, avg 0.76 ms, output 79.69     ms, avg 0.36 ms 
+Batch_size 11, 156   times, infer 19676.35  ms, avg 126.13 ms, 11.47 ms input 145.73    ms, avg 0.93 ms, output 59.16     ms, avg 0.38 ms 
+Batch_size 12, 116   times, infer 14779.34  ms, avg 127.41 ms, 10.62 ms input 97.53     ms, avg 0.84 ms, output 47.53     ms, avg 0.41 ms 
+Batch_size 13, 126   times, infer 16589.30  ms, avg 131.66 ms, 10.13 ms input 120.68    ms, avg 0.96 ms, output 55.39     ms, avg 0.44 ms 
+Batch_size 14, 134   times, infer 17296.91  ms, avg 129.08 ms, 9.22 ms input 144.08    ms, avg 1.08 ms, output 60.17     ms, avg 0.45 ms 
+Batch_size 15, 112   times, infer 15016.54  ms, avg 134.08 ms, 8.94 ms input 112.64    ms, avg 1.01 ms, output 52.96     ms, avg 0.47 ms 
+Batch_size 16, 91    times, infer 12406.87  ms, avg 136.34 ms, 8.52 ms input 96.43     ms, avg 1.06 ms, output 44.86     ms, avg 0.49 ms 
+Batch_size 17, 93    times, infer 12124.90  ms, avg 130.38 ms, 7.67 ms input 114.93    ms, avg 1.24 ms, output 49.86     ms, avg 0.54 ms 
+Batch_size 18, 80    times, infer 10616.83  ms, avg 132.71 ms, 7.37 ms input 74.74     ms, avg 0.93 ms, output 44.85     ms, avg 0.56 ms 
+Batch_size 19, 66    times, infer 8690.92   ms, avg 131.68 ms, 6.93 ms input 67.54     ms, avg 1.02 ms, output 37.38     ms, avg 0.57 ms 
+Batch_size 20, 80    times, infer 10393.19  ms, avg 129.91 ms, 6.50 ms input 73.13     ms, avg 0.91 ms, output 46.81     ms, avg 0.59 ms 
+Batch_size 21, 81    times, infer 10555.50  ms, avg 130.31 ms, 6.21 ms input 67.21     ms, avg 0.83 ms, output 49.19     ms, avg 0.61 ms 
+Batch_size 22, 78    times, infer 9985.22   ms, avg 128.02 ms, 5.82 ms input 91.87     ms, avg 1.18 ms, output 48.91     ms, avg 0.63 ms 
+Batch_size 23, 76    times, infer 9846.06   ms, avg 129.55 ms, 5.63 ms input 90.43     ms, avg 1.19 ms, output 48.82     ms, avg 0.64 ms 
+Batch_size 24, 72    times, infer 9842.04   ms, avg 136.70 ms, 5.70 ms input 80.24     ms, avg 1.11 ms, output 49.62     ms, avg 0.69 ms 
+Batch_size 25, 57    times, infer 7336.50   ms, avg 128.71 ms, 5.15 ms input 68.75     ms, avg 1.21 ms, output 39.76     ms, avg 0.70 ms 
+Batch_size 26, 53    times, infer 6937.27   ms, avg 130.89 ms, 5.03 ms input 56.31     ms, avg 1.06 ms, output 38.53     ms, avg 0.73 ms 
+Batch_size 27, 51    times, infer 6578.26   ms, avg 128.99 ms, 4.78 ms input 64.45     ms, avg 1.26 ms, output 38.80     ms, avg 0.76 ms 
+Batch_size 28, 42    times, infer 5627.98   ms, avg 134.00 ms, 4.79 ms input 55.07     ms, avg 1.31 ms, output 33.43     ms, avg 0.80 ms 
+Batch_size 29, 26    times, infer 3320.37   ms, avg 127.71 ms, 4.40 ms input 26.97     ms, avg 1.04 ms, output 20.19     ms, avg 0.78 ms 
+Batch_size 30, 23    times, infer 2919.65   ms, avg 126.94 ms, 4.23 ms input 31.11     ms, avg 1.35 ms, output 19.41     ms, avg 0.84 ms 
+Batch_size 31, 12    times, infer 1540.72   ms, avg 128.39 ms, 4.14 ms input 16.08     ms, avg 1.34 ms, output 9.67      ms, avg 0.81 ms 
+Batch_size 32, 4     times, infer 545.36    ms, avg 136.34 ms, 4.26 ms input 3.73      ms, avg 0.93 ms, output 3.23      ms, avg 0.81 ms 
+model name is transducer 
+queue 0.04  s, infer 11742.21 s, input 100.63 s, output 71.99 s 
+Batch_size 1 , 62113 times, infer 11742212.32 ms, avg 189.05 ms, 189.05 ms input 100629.80 ms, avg 1.62 ms, output 71988.26  ms, avg 1.16 ms 

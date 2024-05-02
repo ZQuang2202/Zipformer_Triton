@@ -1,0 +1,1 @@
+tritonserver --model-repository=model_repo_streaming_zipformer_new --pinned-memory-pool-byte-size=512000000 --cuda-memory-pool-byte-size=0:1024000000 --http-port 10086 --grpc-port 7001 --metrics-port 10087

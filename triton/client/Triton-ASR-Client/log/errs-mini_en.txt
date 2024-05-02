@@ -1,0 +1,47 @@
+%WER = 1800.00
+Errors: 17 insertions, 0 deletions, 1 substitutions, over 1 reference words (0 correct)
+Search below for sections starting with PER-UTT DETAILS:, SUBSTITUTIONS:, DELETIONS:, INSERTIONS:, PER-WORD STATS:
+
+PER-UTT DETAILS: corr or (ref->hyp)  
+0:	(foo->AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BRUFFLES)
+
+SUBSTITUTIONS: count ref -> hyp
+1   foo -> AFTER
+
+DELETIONS: count ref
+
+INSERTIONS: count hyp
+3   THE
+1   YELLOW
+1   WOULD
+1   UP
+1   THERE
+1   SQUALID
+1   QUARTER
+1   OF
+1   NIGHTFALL
+1   LIGHT
+1   LAMPS
+1   HERE
+1   EARLY
+1   BRUFFLES
+1   AND
+
+PER-WORD STATS: word  corr tot_errs count_in_ref count_in_hyp
+THE   0 3 0 3
+foo   0 1 1 0
+YELLOW   0 1 0 1
+WOULD   0 1 0 1
+UP   0 1 0 1
+THERE   0 1 0 1
+SQUALID   0 1 0 1
+QUARTER   0 1 0 1
+OF   0 1 0 1
+NIGHTFALL   0 1 0 1
+LIGHT   0 1 0 1
+LAMPS   0 1 0 1
+HERE   0 1 0 1
+EARLY   0 1 0 1
+BRUFFLES   0 1 0 1
+AND   0 1 0 1
+AFTER   0 1 0 1

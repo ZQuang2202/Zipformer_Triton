@@ -1,0 +1,2 @@
+0:	ref=['foo']
+0:	hyp=['AFTER', 'EARLY', 'NIGHTFALL', 'THE', 'YELLOW', 'LAMPS', 'WOULD', 'LIGHT', 'UP', 'HERE', 'AND', 'THERE', 'THE', 'SQUALID', 'QUARTER', 'OF', 'THE', 'BRUFFLES']

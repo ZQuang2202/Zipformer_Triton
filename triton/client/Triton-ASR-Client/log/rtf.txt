@@ -1,0 +1,13 @@
+total_duration: 18156.000 seconds
+(18156.0 seconds with endpoint)
+processing time: 632.575 seconds (0.18 hours)
+latency_variance: 78.71
+latency_90_percentile: 331.97
+latency_95_percentile: 472.86
+latency_99_percentile: 1931.94
+average_latency_ms: 291.27
+rtf: 1.02
+rtf_variance: 2.86
+rtf_90_percentile: 1.10
+rtf_95_percentile: 2.65
+rtf_99_percentile: 6.31
