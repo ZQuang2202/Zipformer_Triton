@@ -1,4 +1,5 @@
-# Inference Serving Best Practice for Transducer ASR based on Icefall <!-- omit in toc -->
+# Inference Serving Best Practice for Zipformer Transducer ASR
+I provide a template triton config for zipformer model and a client api to evaluate the performance of serving pipline.
 ## Prepare Environment
 Build the server docker image:
 ```
