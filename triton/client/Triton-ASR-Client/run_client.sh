@@ -1,4 +1,4 @@
-python3 client_copy.py \
+python3 client.py \
     --manifest-dir /data_hub/librispeech/kaldi_manifest/test-clean \
     --model-name transducer \
     --simulate-streaming \
