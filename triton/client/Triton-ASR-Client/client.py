@@ -20,55 +20,15 @@ This script supports to load manifest files in kaldi format and sends it to the 
 for decoding, in parallel.
 
 Usage:
-# For offline icefall server
-python3 client.py \
-    --compute-cer  # For Chinese, we use CER to evaluate the model 
-
-# For streaming icefall server
-python3 client.py \
-    --streaming \
-    --compute-cer
-
 # For simulate streaming mode icefall server
-python3 client.py \
+python3 client_copy.py \
+    --manifest-dir /data/data_hub/librispeech/kaldi_manifest/test-clean \
+    --model-name transducer \
     --simulate-streaming \
-    --compute-cer
-
-# For offline wenet server
-python3 client.py \
-    --server-addr localhost \
-    --compute-cer \
-    --model-name attention_rescoring \
-    --num-tasks 300 \
-    --manifest-dir ./datasets/aishell1_test
-
-# For streaming wenet server
-python3 client.py \
-    --server-addr localhost \
-    --streaming \
-    --compute-cer \
-    --context 7 \
-    --model-name streaming_wenet \
-    --num-tasks 300 \
-    --manifest-dir ./datasets/aishell1_test
-
-# For simulate streaming mode wenet server
-python3 client.py \
-    --server-addr localhost \
-    --simulate-streaming \
-    --compute-cer \
-    --context 7 \
-    --model-name streaming_wenet \
-    --num-tasks 300 \
-    --manifest-dir ./datasets/aishell1_test
-
-# For offlien paraformer server
-python3 client.py \
-    --server-addr localhost \
-    --compute-cer \
-    --model-name infer_pipeline \
-    --num-tasks $num_task \
-    --manifest-dir ./datasets/aishell1_test
+    --encoder_right_context 0 \
+    --chunk_size 16 \
+    --subsampling 2 \
+    --num-tasks 100
 
 # For offlien whisper server
 python3 client.py \
@@ -416,19 +376,16 @@ async def send_streaming(
 
         waveform, sample_rate = load_audio(dp["audio_filepath"])
         duration = int(len(waveform) / sample_rate)
-        waveform_pad = np.zeros((1,len(waveform) + int(1 * sample_rate)), dtype=np.float32) ## Padding tail with 2s
-        waveform_pad[0, : len(waveform)] = waveform
-        waveform_pad = waveform_pad.squeeze(0)
         wav_segs = []
 
         j = 0
-        while j < len(waveform_pad):
+        while j < len(waveform):
             stride = int(chunk_in_secs * sample_rate)
-            wav_segs.append(waveform_pad[j : j + stride])
+            wav_segs.append(waveform[j : j + stride])
             j += len(wav_segs[-1])
 
         sequence_id = task_index + 10086
-        end = False
+        
         for idx, seg in enumerate(wav_segs):
             chunk_len = len(seg)
 
@@ -459,9 +416,11 @@ async def send_streaming(
             inputs[0].set_data_from_numpy(input0_data)
             inputs[1].set_data_from_numpy(input1_data)
 
-            outputs = [protocol_client.InferRequestedOutput("TRANSCRIPTS"),
-                       protocol_client.InferRequestedOutput("ENDPOINTS")]
+            outputs = [protocol_client.InferRequestedOutput("TRANSCRIPTS")]
 
+            end = False
+            if idx == len(wav_segs) - 1:
+                end = True
             response = await triton_client.infer(
                 model_name,
                 inputs,
@@ -473,7 +432,6 @@ async def send_streaming(
             idx += 1
 
             decoding_results = response.as_numpy("TRANSCRIPTS")
-            endpoint = response.as_numpy("ENDPOINTS")
             
             if type(decoding_results) == np.ndarray:
                 decoding_results = b" ".join(decoding_results).decode("utf-8")
@@ -482,11 +440,7 @@ async def send_streaming(
                 decoding_results = response.as_numpy("TRANSCRIPTS")[0].decode("utf-8")
             chunk_end = time.time() - chunk_start
             latency_data.append((chunk_end, chunk_len / sample_rate))
-            if end == True:
-                break
-            if endpoint * 0.04 > 1:
-                end_point_data.append(endpoint)
-                end = True
+            
         total_duration += duration
 
         if compute_cer:
@@ -701,11 +655,9 @@ async def main():
         results += ans[1]
         if args.streaming or args.simulate_streaming:
             latency_data += ans[2]
-            end_point_data += ans[3]
     
-    print('end point seconds', sum(end_point_data)/len(end_point_data)*0.04)
     s = f"total_duration: {total_duration:.3f} seconds\n"
-    s += f"({total_duration + sum(end_point_data)*0.04} seconds with endpoint)\n"
+    s += f"({total_duration} seconds with endpoint)\n"
     s += f"processing time: {elapsed:.3f} seconds " f"({elapsed/3600:.2f} hours)\n"
 
     if args.streaming or args.simulate_streaming:
@@ -726,11 +678,6 @@ async def main():
         s += f"rtf_90_percentile: {np.percentile(rtf_list, 90):.2f}\n"
         s += f"rtf_95_percentile: {np.percentile(rtf_list, 95):.2f}\n"
         s += f"rtf_99_percentile: {np.percentile(rtf_list, 99):.2f}\n"
-
-        end_point_avg = sum(end_point_data) / float(len(end_point_data)) *0.04
-        latency_avg = end_point_avg + np.percentile(rtf_list, 95)*0.32
-        s += f"end_point_avg in seconds: {end_point_avg.item():.2f}\n"
-        s += f"latency_avg in seconds: {latency_avg.item():.2f}\n"
 
     print(s)
 
