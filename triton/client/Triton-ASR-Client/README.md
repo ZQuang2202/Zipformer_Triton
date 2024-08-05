@@ -45,20 +45,3 @@ client.py [-h] [--server-addr SERVER_ADDR] [--server-port SERVER_PORT]
 * `--subsampling SUBSAMPLING`: Subsampling rate (default: 4)
 * `--stats_file STATS_FILE`: Output of [stats analysis](poe://www.poe.com/_api/key_phrase?phrase=stats%20analysis&prompt=Tell%20me%20more%20about%20stats%20analysis.) in human readable format (default: ./stats_summary.txt)
 
-
-
-### List of Supported Triton ASR Server
-| Model Repo | Description | Source | HuggingFace Link |
-| --- | --- | --- | -- |
-| [Whisper Large-v2 Onnx](https://github.com/openai/whisper/tree/main) | Offline ASR Onnx FP16 |Openai | yuekai/model_repo_whisper_large_v2  |
-| [Conformer Onnx](https://github.com/wenet-e2e/wenet/tree/main/runtime/gpu/model_repo) | Offline ASR Onnx FP16 |Wenet | yuekai/model_repo_conformer_aishell_wenet  |
-| [Conformer Tensorrt](https://github.com/wenet-e2e/wenet/tree/main/runtime/gpu/tensorrt/model_repo_stateful_trt) |Streaming ASR Tensorrt FP16 |Wenet |  |
-| [Conformer FasterTransformer](https://github.com/wenet-e2e/wenet/tree/main/runtime/gpu/tensorrt_fastertransformer/model_repo_ft) | Offline ASR FasterTransformer FP16|Wenet |  |
-| [Conformer CUDA-TLG decoder](https://github.com/wenet-e2e/wenet/tree/main/runtime/gpu/cuda_decoders/model_repo_cuda_decoder) | Offline ASR with CUDA Decoders|Wenet | speechai/model_repo_conformer_aishell_wenet_tlg |
-| [Offline Conformer Onnx](https://github.com/k2-fsa/sherpa/tree/master/triton/model_repo_offline) | Offline ASR Onnx FP16 |k2 |wd929/k2_conformer_offline_onnx_model_repo
-| [Offline Conformer TensorRT](https://github.com/k2-fsa/sherpa/tree/master/triton/model_repo_offline) | Offline ASR TensorRT FP16 |k2 |wd929/k2_conformer_offline_trt_model_repo |
-| [Streaming Conformer Onnx](https://github.com/k2-fsa/sherpa/tree/master/triton/model_repo_streaming) | Streaming ASR Onnx FP16 |k2 | |
-| [Zipformer Onnx](https://github.com/k2-fsa/sherpa/tree/master/triton/zipformer/model_repo_offline_bs) | Offline ASR Onnx FP16 with Blank Skip |k2 | |
-| [Paraformer Onnx](https://github.com/alibaba-damo-academy/FunASR/tree/main/funasr/runtime/triton_gpu/model_repo_paraformer_large_offline) | Offline ASR FP32 |FunASR | |
-
-
